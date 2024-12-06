@@ -1,0 +1,63 @@
+/* Header e Navegação */
+header {
+    background-color: #1e1e1e;
+    position: sticky;
+    top: 0;
+}
+
+.top-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #e69500;
+}
+
+/* Opções do Usuário */
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-options a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-options input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffa500;
+}
+
+.icons span {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}

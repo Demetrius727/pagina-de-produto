@@ -1,0 +1,28 @@
+@import url('header.css');
+@import url('main.css');
+@import url('responsiveness.css');
+@import url('footer.css');
+
+/* Estilos Globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  margin-right: 5px;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+
+

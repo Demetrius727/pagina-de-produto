@@ -1,0 +1,31 @@
+
+footer {
+    background-color: #1e1e1e;
+  }
+  
+  footer a {
+    text-decoration: none;    
+  }
+  
+  #footer_items {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    color: #a77f35;
+  }
+  
+  #footer_items #copy {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .social-media-buttons .fa-brands{
+    background-color: #333;
+    color: #a77f35;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+   
+  }

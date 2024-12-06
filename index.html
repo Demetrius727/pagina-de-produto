@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de Produto</title>
+  <link rel="stylesheet" href="src/styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="logo">
+        <img src="src/img/logo.png" alt="Logo Hora de Codar" />
+        <h1>TechStore</h1>
+      </div>
+      <nav class="nav">
+        <a href="#">Computadores</a>
+        <a href="#">TVs</a>
+        <a href="#">Acessórios</a>
+        <a href="#">Promoções</a>
+      </nav>
+      <div class="user-options">
+        <a href="#"><i class="fas fa-user"></i> login / cadastro</a>
+        <input type="text" placeholder="Buscar produto" />
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="product-details">
+      <div class="product-gallery">
+        <img src="src/img/fone_destaque.png" alt="Fone de Ouvido Bluetooth" />
+        <div class="gallery-thumbnails">
+          <img src="src/img/fone1.png" alt="Fone de Ouvido - Detalhe 1" />
+          <img src="src/img/fone2.png" alt="Fone de Ouvido - Detalhe 2" />
+          <img src="src/img/fone3.png" alt="Fone de Ouvido - Detalhe 3" />
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-path">
+          <i class="fas fa-chevron-right"></i> Tecnologia / Fones / Sem Fio
+        </p>
+        <h2>Fone de Ouvido Bluetooth - Preto</h2>
+        <p class="product-code">Código do Produto: 98765XYZ</p>
+        <p class="price">R$ 350,00</p>
+        <p class="rating">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star-half-alt"></i> 45 avaliações
+        </p>
+        <p class="product-description">
+          Aproveite uma experiência sonora única com nossos fones de ouvido
+          Bluetooth. Design moderno, leve e ideal para qualquer ocasião. Sons
+          nítidos e graves potentes que elevam sua música a um novo patamar.
+        </p>
+        <div class="product-options">
+          <label for="color">Cor:</label>
+          <select id="color">
+            <option>Preto</option>
+            <option>Branco</option>
+            <option>Azul</option>
+          </select>
+          <label for="quantity">Quantidade:</label>
+          <input type="number" id="quantity" value="1" min="1" />
+        </div>
+        <div class="buttons">
+          <button class="add-to-cart">
+            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+          </button>
+          <button class="add-to-wishlist">
+            <i class="fas fa-heart"></i> Adicionar à lista de desejos
+          </button>
+        </div>
+        <div class="delivery">
+          <p class="delivery-title">Calcule frete e prazo de entrega</p>
+          <div class="search-delivery"> 
+            <input type="number" placeholder="   Insira o CEP" min="0" />
+            <button>Calcular</button>
+          </div>
+          <a id="cep-search" target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/">Não sei o meu CEP</a>
+          <p class="terms">
+            <i class="fas fa-truck"></i> Estimativa de Entrega: Consulte nossos
+            <a href="#">Termos e Condições</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="product-specs">
+      <ul class="tabs">
+        <li><i class="fas fa-info-circle"></i> Detalhes</li>
+        <li><i class="fas fa-undo"></i> Devolução</li>
+        <li><i class="fas fa-shipping-fast"></i> Entrega</li>
+      </ul>
+      <div class="specs-content">
+        <div>
+          <p><strong>SKU:</strong> TECH98765</p>
+          <p><strong>Material Externo:</strong> Plástico ABS</p>
+          <p><strong>Tempo de Bateria:</strong> Até 20 horas</p>
+          <p><strong>Conectividade:</strong> Bluetooth 5.0</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>   
+    <div id="footer_items">
+        <span id="copy">
+            &copy 2024 Demetrius Carregosa 
+        </span>       
+
+        <div class="social-media-buttons">
+            <a target="_blank" href="https://wa.me/qr/VFOUY4CGH2CIB1">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/demetrius-carregosa/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a target="_blank" href="https://github.com/Demetrius727">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a target="_blank" href="https://www.freecodecamp.org/demetrius7">
+              <i class="fa-brands fa-free-code-camp"></i>
+            </a>
+
+            <a target="_blank" href="mailto:demetriuscarregosa@gmail.com">
+              <i class="fa-brands fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
